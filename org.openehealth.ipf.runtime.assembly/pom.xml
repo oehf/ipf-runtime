@@ -85,7 +85,7 @@
             <param>mvn:org.apache.commons/com.springsource.org.apache.commons.httpclient/${springsource-commons-httpclient-version}@start</param>
             <param>mvn:com.opensymphony.quartz/com.springsource.org.quartz/${springsource-quartz-version}@start</param>
             <param>mvn:org.jboss.javassist/com.springsource.javassist/${springsource-javassist-version}@start</param>
-            <param>mvn:org.apache.log4j/com.springsource.org.apache.log4j/${springsource-log4j-version}@start</param>
+            <param>mvn:log4j/log4j/${log4j-version}@start</param>
             <param>mvn:net.sourceforge.cglib/com.springsource.net.sf.cglib/${springsource-cglib-version}@start</param>
             <param>mvn:org.apache.commons/commons-lang3/${commons-lang3-version}@start</param>
             <param>mvn:org.apache.lucene/com.springsource.org.apache.lucene/${springsource-lucene-version}@start</param>

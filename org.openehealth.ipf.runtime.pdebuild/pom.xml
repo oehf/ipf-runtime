@@ -121,8 +121,8 @@
             <artifactId>com.springsource.javassist</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.log4j</groupId>
-            <artifactId>com.springsource.org.apache.log4j</artifactId>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
         </dependency>
         <dependency>
             <groupId>net.sourceforge.cglib</groupId>

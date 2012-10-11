@@ -57,6 +57,7 @@
         <jetty-version>7.5.4.v20111024</jetty-version>
         <jms-version>1.1-p1</jms-version>
         <joda-time-osgi-version>2.1</joda-time-osgi-version>
+        <log4j-version>1.2.17</log4j-version>
         <oht-atna-version>2.0.0</oht-atna-version>
         <osgi-compendium-version>4.2.0</osgi-compendium-version>
         <neethi-version>3.0.2</neethi-version>
@@ -96,7 +97,6 @@
         <springsource-jasypt-version>1.5.0</springsource-jasypt-version>
         <springsource-javassist-version>3.15.0.GA</springsource-javassist-version>
         <springsource-junit-version>4.4.0</springsource-junit-version>
-        <springsource-log4j-version>1.2.16</springsource-log4j-version>
         <springsource-lucene-version>2.3.0</springsource-lucene-version>
         <springsource-persistence-api-version>1.99.0</springsource-persistence-api-version>
         <springsource-quartz-version>1.6.2</springsource-quartz-version>
@@ -266,9 +266,9 @@
             <version>${springsource-javassist-version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.log4j</groupId>
-            <artifactId>com.springsource.org.apache.log4j</artifactId>
-            <version>${springsource-log4j-version}</version>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j-version}</version>
         </dependency>
         <dependency>
             <groupId>net.sourceforge.cglib</groupId>
