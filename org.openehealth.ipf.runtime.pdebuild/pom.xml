@@ -56,18 +56,6 @@
             <artifactId>com.springsource.javax.ejb</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.derby</groupId>
-            <artifactId>com.springsource.org.apache.derby</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.derby</groupId>
-            <artifactId>com.springsource.org.apache.derby.client</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.derby</groupId>
-            <artifactId>com.springsource.org.apache.derby.drda</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.objectweb.asm</groupId>
             <artifactId>com.springsource.org.objectweb.asm.attrs</artifactId>
         </dependency>
@@ -304,6 +292,10 @@
         </dependency>
 
         <!-- servicemixe bundles-->
+        <dependency>
+            <groupId>org.apache.servicemix.bundles</groupId>
+            <artifactId>org.apache.servicemix.bundles.derby</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.apache.servicemix.bundles</groupId>
             <artifactId>org.apache.servicemix.bundles.mina</artifactId>

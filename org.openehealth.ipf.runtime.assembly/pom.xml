@@ -78,9 +78,6 @@
             <param>mvn:org.aspectj/com.springsource.org.aspectj.weaver/${springsource-aspectj-version}@start</param>
             <param>mvn:org.aspectj/com.springsource.org.aspectj.runtime/${springsource-aspectj-version}@start</param>
             <param>mvn:javax.ejb/com.springsource.javax.ejb/${springsource-ejb-api-version}@start</param>
-            <param>mvn:org.apache.derby/com.springsource.org.apache.derby.drda/${springsource-derby-version}@start</param>
-            <param>mvn:org.apache.derby/com.springsource.org.apache.derby/${springsource-derby-version}@start</param>
-            <param>mvn:org.apache.derby/com.springsource.org.apache.derby.client/${springsource-derby-version}@start</param>
             <param>mvn:org.objectweb.asm/com.springsource.org.objectweb.asm.attrs/${springsource-asm-version}@start</param>
             <param>mvn:org.apache.commons/com.springsource.org.apache.commons.httpclient/${springsource-commons-httpclient-version}@start</param>
             <param>mvn:com.opensymphony.quartz/com.springsource.org.quartz/${springsource-quartz-version}@start</param>
@@ -137,6 +134,7 @@
             <param>mvn:org.apache.cxf/cxf-rt-ws-addr/${cxf-version}@start</param>
             <param>mvn:org.apache.cxf/cxf-rt-ws-policy/${cxf-version}@start</param>
             <param>mvn:org.apache.cxf/cxf-rt-databinding-jaxb/${cxf-version}@start</param>
+            <param>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.derby/${servicemix-derby-version}@start</param>
             <param>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.mina/${servicemix-mina-version}@start</param>
             <param>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.wsdl4j/${springsource-wsdl-version}@start</param>
             <param>mvn:org.apache.geronimo.specs/geronimo-javamail_1.4_spec/${geronimo-javamail-api-version}@start</param>

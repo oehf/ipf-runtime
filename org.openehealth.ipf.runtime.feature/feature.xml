@@ -261,27 +261,6 @@
          unpack="false"/>
 
       <plugin
-         id="com.springsource.org.apache.derby.drda"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-      <plugin
-         id="com.springsource.org.apache.derby"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-      <plugin
-         id="com.springsource.org.apache.derby.client"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-      <plugin
          id="com.springsource.org.objectweb.asm.attrs"
          download-size="0"
          install-size="0"
@@ -738,6 +717,14 @@
 
       <plugin
          id="org.apache.neethi"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+
+      <plugin
+         id="org.apache.servicemix.bundles.derby"
          download-size="0"
          install-size="0"
          version="0.0.0"

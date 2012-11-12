@@ -62,6 +62,7 @@
         <osgi-compendium-version>4.2.0</osgi-compendium-version>
         <neethi-version>3.0.2</neethi-version>
         <pax-web-version>1.1.2</pax-web-version>
+        <servicemix-derby-version>10.8.2.2_1</servicemix-derby-version>
         <servicemix-jaxb-api-version>1.9.0</servicemix-jaxb-api-version>
         <servicemix-jaxws-api-version>1.9.0</servicemix-jaxws-api-version>
         <servicemix-saaj-api-version>1.9.0</servicemix-saaj-api-version>
@@ -90,7 +91,6 @@
         <springsource-commons-lang-version>2.6.0</springsource-commons-lang-version>
         <springsource-commons-logging-version>1.1.1</springsource-commons-logging-version>
         <springsource-commons-pool-version>1.5.3</springsource-commons-pool-version>
-        <springsource-derby-version>10.4.1000003.648739</springsource-derby-version>
         <springsource-dom4j-version>1.6.1</springsource-dom4j-version>
         <springsource-ehcache-version>1.6.2</springsource-ehcache-version>
         <springsource-ejb-api-version>3.0.0</springsource-ejb-api-version>
@@ -183,21 +183,6 @@
             <groupId>javax.ejb</groupId>
             <artifactId>com.springsource.javax.ejb</artifactId>
             <version>${springsource-ejb-api-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.derby</groupId>
-            <artifactId>com.springsource.org.apache.derby</artifactId>
-            <version>${springsource-derby-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.derby</groupId>
-            <artifactId>com.springsource.org.apache.derby.client</artifactId>
-            <version>${springsource-derby-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.derby</groupId>
-            <artifactId>com.springsource.org.apache.derby.drda</artifactId>
-            <version>${springsource-derby-version}</version>
         </dependency>
         <dependency>
             <groupId>org.objectweb.asm</groupId>
@@ -503,7 +488,12 @@
             <version>${cxf-version}</version>
         </dependency>
 
-            <!-- servicemixe bundles-->
+        <!-- servicemixe bundles-->
+        <dependency>
+            <groupId>org.apache.servicemix.bundles</groupId>
+            <artifactId>org.apache.servicemix.bundles.derby</artifactId>
+            <version>${servicemix-derby-version}</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.servicemix.bundles</groupId>
             <artifactId>org.apache.servicemix.bundles.mina</artifactId>
