@@ -240,20 +240,6 @@
          unpack="false"/>
 
       <plugin
-         id="com.springsource.org.aspectj.weaver"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-		 
-      <plugin
-         id="com.springsource.org.aspectj.runtime"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-		 
-      <plugin
          id="com.springsource.javax.ejb"
          download-size="0"
          install-size="0"
@@ -722,6 +708,12 @@
          version="0.0.0"
          unpack="false"/>
 
+    <plugin
+            id="org.apache.servicemix.bundles.aspectj"
+            download-size="0"
+            install-size="0"
+            version="0.0.0"
+            unpack="false"/>
 
       <plugin
          id="org.apache.servicemix.bundles.derby"

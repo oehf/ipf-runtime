@@ -62,6 +62,7 @@
         <osgi-compendium-version>4.2.0</osgi-compendium-version>
         <neethi-version>3.0.2</neethi-version>
         <pax-web-version>1.1.2</pax-web-version>
+        <servicemix-aspectj-version>1.7.0_1</servicemix-aspectj-version>
         <servicemix-derby-version>10.8.2.2_1</servicemix-derby-version>
         <servicemix-jaxb-api-version>1.9.0</servicemix-jaxb-api-version>
         <servicemix-jaxws-api-version>1.9.0</servicemix-jaxws-api-version>
@@ -82,7 +83,6 @@
         <springsource-antlr-version>2.7.7</springsource-antlr-version>
         <springsource-aopalliance-version>1.0.0</springsource-aopalliance-version>
         <springsource-asm-version>1.5.3</springsource-asm-version>
-        <springsource-aspectj-version>1.6.2.RELEASE</springsource-aspectj-version>
         <springsource-cglib-version>2.2.0</springsource-cglib-version>
         <springsource-commons-collections-version>3.2.0</springsource-commons-collections-version>
         <springsource-commons-dbcp-version>1.2.2.osgi</springsource-commons-dbcp-version>
@@ -168,16 +168,6 @@
             <groupId>org.apache.aries</groupId>
             <artifactId>org.apache.aries.util</artifactId>
             <version>${aries-blueprint-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>com.springsource.org.aspectj.weaver</artifactId>
-            <version>${springsource-aspectj-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>com.springsource.org.aspectj.runtime</artifactId>
-            <version>${springsource-aspectj-version}</version>
         </dependency>
         <dependency>
             <groupId>javax.ejb</groupId>
@@ -489,6 +479,11 @@
         </dependency>
 
         <!-- servicemixe bundles-->
+        <dependency>
+            <groupId>org.apache.servicemix.bundles</groupId>
+            <artifactId>org.apache.servicemix.bundles.aspectj</artifactId>
+            <version>${servicemix-aspectj-version}</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.servicemix.bundles</groupId>
             <artifactId>org.apache.servicemix.bundles.derby</artifactId>

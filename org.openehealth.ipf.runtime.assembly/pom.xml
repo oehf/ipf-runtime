@@ -75,8 +75,6 @@
             <param>mvn:org.apache.aries.proxy/org.apache.aries.proxy.api/${aries-blueprint-version}@start</param>
             <param>mvn:org.apache.aries.proxy/org.apache.aries.proxy.impl/${aries-blueprint-version}@start</param>
             <param>mvn:org.apache.aries/org.apache.aries.util/${aries-blueprint-version}@start</param>
-            <param>mvn:org.aspectj/com.springsource.org.aspectj.weaver/${springsource-aspectj-version}@start</param>
-            <param>mvn:org.aspectj/com.springsource.org.aspectj.runtime/${springsource-aspectj-version}@start</param>
             <param>mvn:javax.ejb/com.springsource.javax.ejb/${springsource-ejb-api-version}@start</param>
             <param>mvn:org.objectweb.asm/com.springsource.org.objectweb.asm.attrs/${springsource-asm-version}@start</param>
             <param>mvn:org.apache.commons/com.springsource.org.apache.commons.httpclient/${springsource-commons-httpclient-version}@start</param>
@@ -134,6 +132,7 @@
             <param>mvn:org.apache.cxf/cxf-rt-ws-addr/${cxf-version}@start</param>
             <param>mvn:org.apache.cxf/cxf-rt-ws-policy/${cxf-version}@start</param>
             <param>mvn:org.apache.cxf/cxf-rt-databinding-jaxb/${cxf-version}@start</param>
+            <param>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.aspectj/${servicemix-aspectj-version}@start</param>
             <param>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.derby/${servicemix-derby-version}@start</param>
             <param>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.mina/${servicemix-mina-version}@start</param>
             <param>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.wsdl4j/${springsource-wsdl-version}@start</param>

@@ -44,14 +44,6 @@
             <artifactId>org.apache.aries.util</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>com.springsource.org.aspectj.weaver</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>com.springsource.org.aspectj.runtime</artifactId>
-        </dependency>
-        <dependency>
             <groupId>javax.ejb</groupId>
             <artifactId>com.springsource.javax.ejb</artifactId>
         </dependency>
@@ -292,6 +284,10 @@
         </dependency>
 
         <!-- servicemixe bundles-->
+        <dependency>
+            <groupId>org.apache.servicemix.bundles</groupId>
+            <artifactId>org.apache.servicemix.bundles.aspectj</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.apache.servicemix.bundles</groupId>
             <artifactId>org.apache.servicemix.bundles.derby</artifactId>
